@@ -1,6 +1,3 @@
-#!/bin/bash
-
-cat <<EOL >README.md
 # Basic Authentication App With DJANGO
 
 An easy-to-implement Django authentication system that handles user registration, login, profile management, and password reset functionality.
@@ -63,6 +60,3 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 
 [MIT License](LICENSE) - so feel free to use parts of the app in your own projects.
 
-EOL
-
-echo "README.md has been created!"
