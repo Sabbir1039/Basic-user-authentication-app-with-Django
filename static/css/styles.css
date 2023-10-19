@@ -1,0 +1,76 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Eczar&family=Lato:ital,wght@0,300;0,400;1,300&family=Raleway:ital@1&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eczar&family=Lato:ital,wght@0,300;0,400;1,300&family=Raleway:ital@1&family=Roboto+Mono:ital,wght@0,400;1,300&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+  
+}
+
+.main {
+    background: #fff;
+    height: 100%;
+}
+
+.error-section {
+    padding: 5px;
+    text-align: center;
+}
+
+/* home page style */
+.intro {
+    margin: 3rem auto;
+    text-align: center;
+    padding: 8px;
+   
+}
+
+.intro h1 {
+    color: rgb(19, 2, 58);
+    font-family: 'Roboto Mono', monospace;
+}
+
+.intro h2 {
+    color: rgb(17, 0, 56);
+    font-family: 'Raleway', sans-serif;
+}
+
+/* register forms style */
+.form-section {
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top: 12px;
+}
+
+.form-section ul{
+    padding-left: 1rem;
+    margin-left: 1rem;
+}
+
+/* home links style */
+.links p {
+    font-size: 24px;
+}
+.links a {
+    color: black;
+    padding: 8px 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 0 2px;
+}
+
+.links a:hover {
+    color: black;
+    background: #c4ffff;
+    text-decoration: none;
+}
